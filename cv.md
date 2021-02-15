@@ -25,3 +25,5 @@
 6. **Experience**: Website development and promotion for the last 10 years using CSS, HTML, WordPress, SEO
 
 7. **Education:** self-education
+
+8. **English:** A2 Level
