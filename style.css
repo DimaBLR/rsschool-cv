@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 5px;
+}
+
+@font-face {
+	font-family: "Avenir Next Cyr", Tahoma, sans-serif;
+    font-family: philosopher; 
+    src: url(fonts/philosopher-regular.ttf); 
+	font-display: swap;
+  }
+
+html {
+	height: 100%;
+}
+
+hr {
+	box-sizing: content-box; 
+	height: 0; 
+	overflow: visible;	
+	margin:0;
+	padding:0;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+a {
+	text-decoration: none;
+	color: yellow;
+}
+
+pre {
+	border: 2px solid white;
+    border-radius: 5%;
+     background: #e8faff;
+	color: black;	 
+     padding:10px;
+     font-size: 1vw; 
+}
+
+
+h3 {
+	text-align: center;
+	color: orange;
+}
+h1,h2 {
+	text-shadow:
+    -1px -1px #000,
+    0 4px 0 #444;
+	color: white;
+	transition: all 1s;
+}
+h1:hover {
+	text-shadow:
+    -1px -1px #000,
+    0 1px 0 #444;
+	color: orange;
+	cursor:pointer;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: calc(1rem + 0.33vw) philosopher, sans-serif;
+	color: #f4dcd8;
+	/*height: 100%;/*/
+	background: linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%), linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%) 0.1875em 0.1875em, radial-gradient(at 50% 0, #484847, #090909);
+	background-size: 0.375em 0.375em, 0.375em 0.375em, 100% 100%;
+	display: flex;	
+	/*align-items: center;*/
+	text-indent: 1.5em;
+	
+}
+section {	
+	margin: 5%;	
+}
+.wrapper {
+	width: 70%;	
+	min-width: 300px;
+	margin: 0 auto;	
+	background: rgba(255, 255, 255, 0.3);
+	-webkit-box-shadow: 0px 0px 34px 10px rgba(244, 248, 250, 0.37);
+	-moz-box-shadow: 0px 0px 34px 10px rgba(244, 248, 250, 0.37);
+	box-shadow: 0px 0px 34px 10px rgba(244, 248, 250, 0.37);
+}
+.border {
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+.header {	
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background: url(img/bg.jpg) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: cover; /* Масштабируем фон */
+}
+
+.photo {
+	width: 15%;
+	border: 2px solid white;
+	border-radius: 1000px;
+}
+
+
+
+.footer {
+margin: 0 auto;	
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.rs  {
+	
+	filter: invert(1);
+}
+.git {
+	
+	
+	filter: invert(1);
+}
+
